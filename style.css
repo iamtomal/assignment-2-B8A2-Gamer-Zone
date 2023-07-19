@@ -149,3 +149,107 @@ nav a{
     text-transform: uppercase;
 }
 /* Banner end */
+/* online section start here */
+.image-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.image-heading h1{
+    color: #0B0223;
+font-size: 35px;
+font-weight: 700;
+}
+.image-heading p{
+    color: #534C64;
+    margin: -20px 0 25px 0;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.image-heading span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.image-container{
+    display: flex;
+    margin: 0 auto;
+    padding:0px 120px ;
+    gap: 10px;
+}
+.online-image-container {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    margin-top: 8px;
+    float: left;
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.6; 
+  }
+  
+
+/* online section end here */
+
+/* play poster start here */
+.play-container{
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 120px ;
+
+}
+.play-content{
+    padding: 60px 160px;
+    text-align: right;
+}
+.play-content h1{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+}
+.play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content p{
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.play-image-container{
+    position: relative;
+    margin: 0 auto;
+}
+.play-image{
+    position: absolute;
+    margin: -175px -90px;
+}
+.play-image-container .play-image img{
+    width: 200px;
+}
+.play-image-container img{
+    width: 400px;
+
+}
+
+
+/* Play poster end here */
