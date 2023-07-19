@@ -72,3 +72,80 @@ nav a{
     padding: 8px;
 }
 /* Navigation part end */
+/* Banner start here*/
+.banner > img{
+    background-repeat: no-repeat;
+    max-width: 50%;
+    position: absolute;
+}
+.banner-container{
+    max-width: 1920px;
+    max-height: 5927px;
+    margin: 0 120px;
+    display: flex;
+}
+.banner-container .box{
+    width: 601px;
+    height: 450px;
+    margin: 20px auto;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    overflow: hidden;
+}
+.box > img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.box-content{
+    padding: 60px 0;
+}
+.box-content > p{
+    color: #0B0223;
+    margin: 0;
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box-content .box-goat{
+    font-size: 86px;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-content li{
+    list-style: none;
+    margin-left: -35px ;
+    color: #534C64;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-button{
+    display: inline-flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+.sign-in-btn{
+    padding: 18px 34px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.rogue-btn{
+    padding: 18px 38px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Banner end */
