@@ -197,13 +197,12 @@ div.gallery img {
     height: auto;
   }
   
-  div.desc {
+  .desc {
+    max-width: 100%;
     margin-top: 8px;
-    float: left;
     color: #534C64;
     font-size: 13px;
     font-weight: 600;
-    line-height: 1.6; 
   }
   
 /* hover */
