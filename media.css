@@ -108,3 +108,126 @@
     }
     
 }
+
+/* table view start here */
+@media (min-width: 579px) and (max-width: 992px)
+{
+
+    body{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .security-items ul,
+    .footer-icon ul,
+    .footer-items ul,
+    .rectangle-container,
+    .play-container,
+    .image-container,
+    .banner-container,
+    .nav-container ul,
+    .nav-container{
+    flex-direction: column;
+    }
+
+    .banner-container{
+        margin: 150px 0 100px -80px;
+
+    }
+    .nav-container li{
+        margin-top: 5px; 
+        padding-bottom: 10px;
+    }
+    .nav-items .nav-button{
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+    
+    .banner-container .box {
+        margin-right: 50px;
+    }
+    .box > img {
+        max-width:100%;
+        max-height: 100%;
+        margin-left: -70px;
+    }
+
+    .desc{
+        width: 200px;
+        margin-left: 70px;
+    }
+    .image-container {
+        display: flex;
+        margin-left: -80px;
+        gap: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    div.gallery img {
+        width: 250px;
+        height: auto;
+    }
+    div.desc {
+        margin-top: 8px;
+        flex-wrap: wrap;
+        max-width: 100px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+    .play-container{
+        flex-wrap: wrap;
+        margin-left: 100px;
+        padding-left: 150px;
+    }
+    .play-content h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 1.2;
+
+    }
+    .play-content {
+        padding: 0 70px;
+        text-align: center;
+        margin-left: -120px;
+    }
+    .play-image-container img {
+        width: 317px;
+    }
+    .play-image-container img {
+        width: 330px;
+        margin-left: -30px;
+    }
+    .rectangle-container{
+        margin: 10px;
+        gap: 100px;
+        font-size: 12px;
+    }
+    .footer-icon ul,
+    .footer-items ul,
+    .rectangle-container{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+    
+    }
+    .security-items ul{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    .footer-container {
+        padding: 0px;
+    }
+    .footer-items ul{
+        margin:10px 0 20px -40px;
+        gap: -20px;
+    }
+    .footer-icon ul{
+        gap: 120px;
+    }
+    .security-items{
+        margin-left: -50px;
+    }
+    
+}
+
